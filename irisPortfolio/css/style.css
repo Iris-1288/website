@@ -1,0 +1,186 @@
+    /* 自定义背景照片样式 */
+    .hero-image {
+        background-image: url('../assets/hero-bg.jpg'); /* 替换为你的照片 */
+        height: 100vh; /* 设置为全屏高度 */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+      }
+      .hero-name{
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color:#7447ae;
+      }
+
+      .carp-header{
+
+        padding-top:100px;
+        color:#f8f9fa;
+        height:100vh;
+      }
+
+      .carp-bg {
+        background-image: url('../assets/carp-bg.jpg'); /* 替换为你的背景图路径 */
+        background-position: center;
+        background-size: cover; /* 让背景图铺满整个页面 */
+        background-attachment: fixed; /* 背景固定不滚动 */
+        margin: 0; /* 去除默认的页面边距 */
+        font-family: Arial, sans-serif;
+      }
+    
+    /* 导航栏样式 */
+    .navbar-custom {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 20px;
+        z-index: 10; /* 确保导航栏显示在照片之上 */
+      }
+      .navbar-nav .nav-link {
+        color: white !important; /* 导航链接文字颜色为白色 */
+      }
+      .navbar-nav .nav-link:hover {
+        color: #f8f9fa !important; /* 鼠标悬停时颜色变化 */
+      }
+
+         /* 图片容器样式 */
+    .card-img-container {
+        position: relative;
+        overflow: hidden;
+      }
+  
+      /* 鼠标悬停时的放大效果 */
+      .card-img-container img {
+        transition: transform 0.3s ease;
+      }
+  
+      .card-img-container:hover img {
+        transform: scale(1.1); /* 放大图片 */
+      }
+  
+      /* 图片下方文字样式 */
+      .card-body {
+        text-align: center;
+        padding: 10px;
+      }
+  
+      .card-body h5 {
+        font-size: 1.25rem;
+        margin: 10px 0;
+      }
+  
+      .card-body p {
+        font-size: 1rem;
+        color: #6c757d;
+      }
+
+      .code-bg {
+        background-image: url('../assets/code-bg.jpg'); /* 替换为你的背景图路径 */
+        background-position: center;
+        background-size: cover; /* 让背景图铺满整个页面 */
+        background-attachment: fixed; /* 背景固定不滚动 */
+        margin: 0; /* 去除默认的页面边距 */
+        font-family: Arial, sans-serif;
+    
+      }
+
+      .code-header{
+
+        padding-top:100px;
+        color:#f8f9fa;
+        height:100vh;;
+
+      }
+
+      .type-bg {
+        background-image: url('../assets/type-bg.jpg'); /* 替换为你的背景图路径 */
+        background-position: center;
+        background-size: cover; /* 让背景图铺满整个页面 */
+        background-attachment: fixed; /* 背景固定不滚动 */
+        margin: 0; /* 去除默认的页面边距 */
+        font-family: Arial, sans-serif;
+    
+      }
+
+      .type-header{
+
+        padding-top:100px;
+        color:#f8f9fa;
+        height:150vh;;
+
+      }
+
+       /* 页面内容 */
+    .content {
+        padding: 50px 0;
+        text-align: center;
+        font-size: 1.25rem;
+        color: #fff;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .reflection-header{
+
+        padding-top:50px;
+        color:#f8f9fa;
+       
+
+      }
+
+      .reflection-bg {
+        background-image: url('../assets/reflection-bg.jpg'); /* 替换为你的背景图路径 */
+        background-position: center;
+        background-size: cover; /* 让背景图铺满整个页面 */
+        background-attachment: fixed; /* 背景固定不滚动 */
+        margin: 0; /* 去除默认的页面边距 */
+        font-family: Arial, sans-serif;
+    
+      }
+
+      .about-bg {
+        background-image: url('../assets/about-bg.jpg'); /* 替换为你的背景图路径 */
+        background-position: center;
+        background-size: cover; /* 让背景图铺满整个页面 */
+        background-attachment: fixed; /* 背景固定不滚动 */
+        margin: 0; /* 去除默认的页面边距 */
+        font-family: Arial, sans-serif;
+    
+      }
+
+         /* 图片样式 */
+    .content img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px; /* 图片和文字之间的间距 */
+        border-radius: 8px; /* 可选，给图片添加圆角效果 */
+      }
+
+      .ux-bg {
+        background-image: url('../assets/ux-bg.jpg'); /* 替换为你的背景图路径 */
+        background-position: center;
+        background-size: cover; /* 让背景图铺满整个页面 */
+        background-attachment: fixed; /* 背景固定不滚动 */
+        margin: 0; /* 去除默认的页面边距 */
+        font-family: Arial, sans-serif;
+    
+      }
+
+      .ux-header{
+
+        padding-top:100px;
+        color:#f8f9fa;
+        height:100vh;;
+       
+
+      }
